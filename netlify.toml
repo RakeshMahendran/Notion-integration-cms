@@ -1,0 +1,7 @@
+[build]
+   functions = "functions"
+
+[dev]
+   targetPort = 5173
+
+

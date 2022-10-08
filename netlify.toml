@@ -4,4 +4,7 @@
 [dev]
    targetPort = 5173
 
-
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
